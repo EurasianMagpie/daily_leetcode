@@ -11,7 +11,7 @@ public:
 	  @input vector描述数组的字符串描述
 	  返回不为空
 	*/
-	static std::vector<int> generateVector(const char* input) {
+	static std::vector<int> generateIntVector(const char* input) {
 		auto inputs = InputUtil::parseCommonInputString(input);
 		std::vector<int> ret;
 		std::size_t sz = inputs.size();
@@ -21,4 +21,7 @@ public:
 		return ret;
 	}
 
+	static std::vector<std::string> generateStringVector(const char* input) {
+		return InputUtil::parseCommonInputString(input);
+	}
 };

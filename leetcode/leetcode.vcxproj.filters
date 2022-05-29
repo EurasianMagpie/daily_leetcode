@@ -68,5 +68,8 @@
     <ClInclude Include="util\std_util.h">
       <Filter>util</Filter>
     </ClInclude>
+    <ClInclude Include="algorithm\318_maximum_product_of_word_lengths.h">
+      <Filter>algorithm</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

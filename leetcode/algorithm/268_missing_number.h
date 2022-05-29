@@ -63,7 +63,7 @@ namespace MissingNumber {
     };
 
     int testMissingNumber(const char* input) {
-        std::vector<int> nums = StdUtil::generateVector(input);
+        std::vector<int> nums = StdUtil::generateIntVector(input);
         return Solution().missingNumber(nums);
     }
 }
