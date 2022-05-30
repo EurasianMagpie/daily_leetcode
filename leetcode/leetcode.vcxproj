@@ -146,6 +146,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="algorithm\110_balanced_binary_tree.h" />
+    <ClInclude Include="algorithm\1342_number_of_steps_to_reduce_a_number_to_zero.h" />
     <ClInclude Include="algorithm\17_letter_combinations_of_a_phone_number.h" />
     <ClInclude Include="algorithm\23_merge_k_sorted_lists.h" />
     <ClInclude Include="algorithm\24_swap_nodes_in_pairs.h" />
