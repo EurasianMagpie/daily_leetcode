@@ -150,6 +150,7 @@
     <ClInclude Include="algorithm\23_merge_k_sorted_lists.h" />
     <ClInclude Include="algorithm\24_swap_nodes_in_pairs.h" />
     <ClInclude Include="algorithm\268_missing_number.h" />
+    <ClInclude Include="algorithm\29_devide_two_integers.h" />
     <ClInclude Include="algorithm\318_maximum_product_of_word_lengths.h" />
     <ClInclude Include="algorithm\3_longest_substring_without_repeating_characters.h" />
     <ClInclude Include="algorithm\67_add_binary.h" />

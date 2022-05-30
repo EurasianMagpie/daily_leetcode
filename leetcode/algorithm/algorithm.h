@@ -4,6 +4,7 @@
 #include "17_letter_combinations_of_a_phone_number.h"
 #include "23_merge_k_sorted_lists.h"
 #include "24_swap_nodes_in_pairs.h"
+#include "29_devide_two_integers.h"
 #include "67_add_binary.h"
 #include "110_balanced_binary_tree.h"
 #include "268_missing_number.h"
