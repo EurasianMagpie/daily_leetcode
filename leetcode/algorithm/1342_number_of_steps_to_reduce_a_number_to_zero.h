@@ -41,10 +41,6 @@
 namespace NumberOfStepsToReduceANumberToZero {
     class Solution {
     public:
-        /*
-        Runtime: 0 ms, faster than 100.00% of C++ online submissions for Number of Steps to Reduce a Number to Zero.
-        Memory Usage: 5.8 MB, less than 74.05% of C++ online submissions for Number of Steps to Reduce a Number to Zero.
-        */
         int numberOfSteps(int num) {
             int64_t n = num;
             bool valueBegin = false;
