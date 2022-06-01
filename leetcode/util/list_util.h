@@ -38,16 +38,16 @@ public:
 	* 比较两个链表是否相同
 	* 长度相等 && 每个节点的值相等
 	*/
-	static bool compareEqualLinkedList(ListNode* output, ListNode* expected) {
+	static bool compareEqualLinkedList(ListNode* lhs, ListNode* rhs) {
 		while (true)
 		{
-			if (expected == nullptr && output == nullptr) {
+			if (rhs == nullptr && lhs == nullptr) {
 				return true;
 			}
-			else if (expected != nullptr && output != nullptr) {
-				if (expected->val == output->val) {
-					expected = expected->next;
-					output = output->next;
+			else if (rhs != nullptr && lhs != nullptr) {
+				if (rhs->val == lhs->val) {
+					rhs = rhs->next;
+					lhs = lhs->next;
 				}
 				else {
 					return false;

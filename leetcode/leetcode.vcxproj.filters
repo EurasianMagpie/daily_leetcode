@@ -80,5 +80,8 @@
     <ClInclude Include="algorithm\1461_check_if_a_string_contains_all_binary_codes_of_size_k.h">
       <Filter>algorithm</Filter>
     </ClInclude>
+    <ClInclude Include="algorithm\1480_running_sum_of_1d_array.h">
+      <Filter>algorithm</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
