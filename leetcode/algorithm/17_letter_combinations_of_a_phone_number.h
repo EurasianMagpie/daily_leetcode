@@ -37,8 +37,10 @@ Constraints:
 
 #include <string>
 #include <vector>
-#include <map>
 #include <gtest/gtest.h>
+#include <algorithm>
+
+#include "../util/std_util.h"
 
 namespace LetterCombinationsOfAPhoneNumber {
 
@@ -117,13 +119,35 @@ namespace LetterCombinationsOfAPhoneNumber {
         }
     };
 
-    void testLetterCombinations(const char* input) {
+    bool testLetterCombinations(const char* input, const char* expected) {
         std::vector<std::string> ret = Solution().letterCombinations(input);
+        std::vector<std::string> expectedResult = StdUtil::generateStringVector(expected);
+        // 对齐排序再比较
+        std::sort(ret.begin(), ret.end());
+        std::sort(expectedResult.begin(), expectedResult.end());
+        return StdUtil::compareEqualVector<std::string>(ret, expectedResult);
     }
+}
 
-    void test() {
-        testLetterCombinations("23");
-        testLetterCombinations("");
-        testLetterCombinations("2");
-    }
+TEST(_17_LetterCombinationsOfAPhoneNumber, SimpleCases) {
+    /*
+    * Example 1:
+    * Input: digits = "23"
+    * Output: ["ad","ae","af","bd","be","bf","cd","ce","cf"]
+    */
+    EXPECT_TRUE(LetterCombinationsOfAPhoneNumber::testLetterCombinations("23", "[ad,ae,af,bd,be,bf,cd,ce,cf]"));
+
+    /*
+    * Example 2:
+    * Input: digits = ""
+    * Output: []
+    */
+    EXPECT_TRUE(LetterCombinationsOfAPhoneNumber::testLetterCombinations("", "[]"));
+
+    /*
+    * Example 3:
+    * Input: digits = "2"
+    * Output: ["a","b","c"]
+    */
+    EXPECT_TRUE(LetterCombinationsOfAPhoneNumber::testLetterCombinations("2", "[a,b,c]"));
 }
