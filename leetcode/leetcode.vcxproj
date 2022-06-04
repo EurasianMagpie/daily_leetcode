@@ -154,9 +154,13 @@
     <ClInclude Include="algorithm\24_swap_nodes_in_pairs.h" />
     <ClInclude Include="algorithm\268_missing_number.h" />
     <ClInclude Include="algorithm\29_devide_two_integers.h" />
+    <ClInclude Include="algorithm\304_range_sum_query_2d_immutable.h" />
     <ClInclude Include="algorithm\318_maximum_product_of_word_lengths.h" />
+    <ClInclude Include="algorithm\37_sudoku_solver.h" />
     <ClInclude Include="algorithm\3_longest_substring_without_repeating_characters.h" />
+    <ClInclude Include="algorithm\51_n_queens.h" />
     <ClInclude Include="algorithm\67_add_binary.h" />
+    <ClInclude Include="algorithm\867_transpose_matrix.h" />
     <ClInclude Include="algorithm\algorithm.h" />
     <ClInclude Include="base\base.h" />
     <ClInclude Include="util\binary_tree_util.h" />
