@@ -95,5 +95,8 @@
     <ClInclude Include="algorithm\51_n_queens.h">
       <Filter>algorithm</Filter>
     </ClInclude>
+    <ClInclude Include="algorithm\52_n_queens_ii.h">
+      <Filter>algorithm</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

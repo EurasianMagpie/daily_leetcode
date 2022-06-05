@@ -7,6 +7,7 @@
 #include "29_devide_two_integers.h"
 #include "37_sudoku_solver.h"
 #include "51_n_queens.h"
+#include "52_n_queens_ii.h"
 #include "67_add_binary.h"
 #include "110_balanced_binary_tree.h"
 #include "268_missing_number.h"
