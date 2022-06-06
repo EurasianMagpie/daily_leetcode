@@ -10,6 +10,7 @@
 #include "52_n_queens_ii.h"
 #include "67_add_binary.h"
 #include "110_balanced_binary_tree.h"
+#include "160_intersection_of_two_linked_lists.h"
 #include "268_missing_number.h"
 #include "304_range_sum_query_2d_immutable.h"
 #include "318_maximum_product_of_word_lengths.h"
