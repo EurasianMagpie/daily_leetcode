@@ -101,5 +101,8 @@
     <ClInclude Include="algorithm\160_intersection_of_two_linked_lists.h">
       <Filter>algorithm</Filter>
     </ClInclude>
+    <ClInclude Include="algorithm\88_merge_sorted_array.h">
+      <Filter>algorithm</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
