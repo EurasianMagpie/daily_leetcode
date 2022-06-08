@@ -16,6 +16,7 @@
 #include "304_range_sum_query_2d_immutable.h"
 #include "318_maximum_product_of_word_lengths.h"
 #include "867_transpose_matrix.h"
+#include "1332_remove_palindromic_subsequences.h"
 #include "1342_number_of_steps_to_reduce_a_number_to_zero.h"
 #include "1461_check_if_a_string_contains_all_binary_codes_of_size_k.h"
 #include "1480_running_sum_of_1d_array.h"

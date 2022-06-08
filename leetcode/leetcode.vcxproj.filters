@@ -104,5 +104,8 @@
     <ClInclude Include="algorithm\88_merge_sorted_array.h">
       <Filter>algorithm</Filter>
     </ClInclude>
+    <ClInclude Include="algorithm\1332_remove_palindromic_subsequences.h">
+      <Filter>algorithm</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
