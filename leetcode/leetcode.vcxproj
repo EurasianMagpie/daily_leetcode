@@ -151,6 +151,7 @@
     <ClInclude Include="algorithm\1461_check_if_a_string_contains_all_binary_codes_of_size_k.h" />
     <ClInclude Include="algorithm\1480_running_sum_of_1d_array.h" />
     <ClInclude Include="algorithm\160_intersection_of_two_linked_lists.h" />
+    <ClInclude Include="algorithm\1658_minimum_operations_to_reduce_x_to_zero.h" />
     <ClInclude Include="algorithm\167_two_sum_ii_input_array_is_sorted.h" />
     <ClInclude Include="algorithm\17_letter_combinations_of_a_phone_number.h" />
     <ClInclude Include="algorithm\23_merge_k_sorted_lists.h" />
