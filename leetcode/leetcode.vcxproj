@@ -153,6 +153,7 @@
     <ClInclude Include="algorithm\160_intersection_of_two_linked_lists.h" />
     <ClInclude Include="algorithm\1658_minimum_operations_to_reduce_x_to_zero.h" />
     <ClInclude Include="algorithm\167_two_sum_ii_input_array_is_sorted.h" />
+    <ClInclude Include="algorithm\1695_maximum_erasure_value.h" />
     <ClInclude Include="algorithm\17_letter_combinations_of_a_phone_number.h" />
     <ClInclude Include="algorithm\23_merge_k_sorted_lists.h" />
     <ClInclude Include="algorithm\24_swap_nodes_in_pairs.h" />

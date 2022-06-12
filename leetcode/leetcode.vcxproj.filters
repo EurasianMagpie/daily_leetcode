@@ -113,5 +113,8 @@
     <ClInclude Include="algorithm\1658_minimum_operations_to_reduce_x_to_zero.h">
       <Filter>algorithm</Filter>
     </ClInclude>
+    <ClInclude Include="algorithm\1695_maximum_erasure_value.h">
+      <Filter>algorithm</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
