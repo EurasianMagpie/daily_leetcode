@@ -11,6 +11,7 @@
 #include "67_add_binary.h"
 #include "88_merge_sorted_array.h"
 #include "110_balanced_binary_tree.h"
+#include "120_triangle.h"
 #include "160_intersection_of_two_linked_lists.h"
 #include "167_two_sum_ii_input_array_is_sorted.h"
 #include "268_missing_number.h"
