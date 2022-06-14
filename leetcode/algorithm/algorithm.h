@@ -17,6 +17,7 @@
 #include "268_missing_number.h"
 #include "304_range_sum_query_2d_immutable.h"
 #include "318_maximum_product_of_word_lengths.h"
+#include "583_delete_operation_for_two_strings.h"
 #include "867_transpose_matrix.h"
 #include "1332_remove_palindromic_subsequences.h"
 #include "1342_number_of_steps_to_reduce_a_number_to_zero.h"

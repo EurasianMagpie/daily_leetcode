@@ -119,5 +119,8 @@
     <ClInclude Include="algorithm\120_triangle.h">
       <Filter>algorithm</Filter>
     </ClInclude>
+    <ClInclude Include="algorithm\583_delete_operation_for_two_strings.h">
+      <Filter>algorithm</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
