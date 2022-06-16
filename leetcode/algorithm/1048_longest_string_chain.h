@@ -145,9 +145,9 @@ namespace LongestStringChain {
     int testLongestStrChain(const char* input) {
         std::vector<std::string> words = StdUtil::generateStringVector(input);
         int r = Solution().longestStrChain(words);
-        std::cout << "case ---------------------------" << std::endl;
-        std::cout << "Input:\t" << input << std::endl;
-        std::cout << "Output:\t" << r << std::endl;
+        //std::cout << "case ---------------------------" << std::endl;
+        //std::cout << "Input:\t" << input << std::endl;
+        //std::cout << "Output:\t" << r << std::endl;
         return r;
     }
 }

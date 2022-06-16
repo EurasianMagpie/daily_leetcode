@@ -168,6 +168,7 @@
     <ClInclude Include="algorithm\51_n_queens.h" />
     <ClInclude Include="algorithm\52_n_queens_ii.h" />
     <ClInclude Include="algorithm\583_delete_operation_for_two_strings.h" />
+    <ClInclude Include="algorithm\5_longest_palindromic_substring.h" />
     <ClInclude Include="algorithm\67_add_binary.h" />
     <ClInclude Include="algorithm\867_transpose_matrix.h" />
     <ClInclude Include="algorithm\88_merge_sorted_array.h" />
