@@ -128,5 +128,8 @@
     <ClInclude Include="algorithm\5_longest_palindromic_substring.h">
       <Filter>algorithm</Filter>
     </ClInclude>
+    <ClInclude Include="algorithm\968_binary_tree_cameras.h">
+      <Filter>algorithm</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
