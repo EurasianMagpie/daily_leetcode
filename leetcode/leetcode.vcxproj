@@ -148,6 +148,7 @@
     <ClInclude Include="algorithm\1048_longest_string_chain.h" />
     <ClInclude Include="algorithm\110_balanced_binary_tree.h" />
     <ClInclude Include="algorithm\120_triangle.h" />
+    <ClInclude Include="algorithm\1268_search_suggestions_system.h" />
     <ClInclude Include="algorithm\1332_remove_palindromic_subsequences.h" />
     <ClInclude Include="algorithm\1342_number_of_steps_to_reduce_a_number_to_zero.h" />
     <ClInclude Include="algorithm\1461_check_if_a_string_contains_all_binary_codes_of_size_k.h" />
@@ -170,6 +171,7 @@
     <ClInclude Include="algorithm\583_delete_operation_for_two_strings.h" />
     <ClInclude Include="algorithm\5_longest_palindromic_substring.h" />
     <ClInclude Include="algorithm\67_add_binary.h" />
+    <ClInclude Include="algorithm\745_prefix_and_suffix_search.h" />
     <ClInclude Include="algorithm\867_transpose_matrix.h" />
     <ClInclude Include="algorithm\88_merge_sorted_array.h" />
     <ClInclude Include="algorithm\968_binary_tree_cameras.h" />

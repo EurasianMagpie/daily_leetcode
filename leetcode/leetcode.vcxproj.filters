@@ -131,5 +131,11 @@
     <ClInclude Include="algorithm\968_binary_tree_cameras.h">
       <Filter>algorithm</Filter>
     </ClInclude>
+    <ClInclude Include="algorithm\745_prefix_and_suffix_search.h">
+      <Filter>algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithm\1268_search_suggestions_system.h">
+      <Filter>algorithm</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
