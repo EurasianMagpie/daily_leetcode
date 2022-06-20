@@ -20,6 +20,7 @@
 #include "318_maximum_product_of_word_lengths.h"
 #include "583_delete_operation_for_two_strings.h"
 #include "745_prefix_and_suffix_search.h"
+#include "820_short_encoding_of_word.h"
 #include "867_transpose_matrix.h"
 #include "968_binary_tree_cameras.h"
 #include "1048_longest_string_chain.h"
