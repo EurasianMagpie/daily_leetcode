@@ -29,5 +29,6 @@
 #include "1342_number_of_steps_to_reduce_a_number_to_zero.h"
 #include "1461_check_if_a_string_contains_all_binary_codes_of_size_k.h"
 #include "1480_running_sum_of_1d_array.h"
+#include "1642_furthest_building_you_can_reach.h"
 #include "1658_minimum_operations_to_reduce_x_to_zero.h"
 #include "1695_maximum_erasure_value.h"

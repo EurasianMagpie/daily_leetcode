@@ -140,5 +140,8 @@
     <ClInclude Include="algorithm\820_short_encoding_of_word.h">
       <Filter>algorithm</Filter>
     </ClInclude>
+    <ClInclude Include="algorithm\1642_furthest_building_you_can_reach.h">
+      <Filter>algorithm</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
