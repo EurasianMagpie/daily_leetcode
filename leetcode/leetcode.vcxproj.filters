@@ -143,5 +143,8 @@
     <ClInclude Include="algorithm\1642_furthest_building_you_can_reach.h">
       <Filter>algorithm</Filter>
     </ClInclude>
+    <ClInclude Include="algorithm\215_kth_largest_element_in_an_array.h">
+      <Filter>algorithm</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
