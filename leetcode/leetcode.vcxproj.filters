@@ -146,5 +146,8 @@
     <ClInclude Include="algorithm\215_kth_largest_element_in_an_array.h">
       <Filter>algorithm</Filter>
     </ClInclude>
+    <ClInclude Include="algorithm\630_course_schedule_iii.h">
+      <Filter>algorithm</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

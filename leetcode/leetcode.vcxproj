@@ -172,6 +172,7 @@
     <ClInclude Include="algorithm\52_n_queens_ii.h" />
     <ClInclude Include="algorithm\583_delete_operation_for_two_strings.h" />
     <ClInclude Include="algorithm\5_longest_palindromic_substring.h" />
+    <ClInclude Include="algorithm\630_course_schedule_iii.h" />
     <ClInclude Include="algorithm\67_add_binary.h" />
     <ClInclude Include="algorithm\745_prefix_and_suffix_search.h" />
     <ClInclude Include="algorithm\820_short_encoding_of_word.h" />
