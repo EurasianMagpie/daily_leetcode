@@ -64,7 +64,7 @@ namespace ConstructTargetArrayWithMultipleSums {
             {
                 int delta = sum - pq.top();
                 
-                // delta 为0，则最大值与其余元素的和相等，但是【最大值 = 其余元素的和 + 一个正整数】为合法，所以非法
+                // delta 为小于等于0，则最大值与其余元素的和相等，但是【最大值 = 其余元素的和 + 一个正整数】为合法，所以非法
                 // delta 比最大值 大，则old 会小于0， 非法
                 if (delta <= 0 || delta >= pq.top()) {
                     return false;

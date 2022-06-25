@@ -152,5 +152,8 @@
     <ClInclude Include="algorithm\1354_construct_target_array_with_multiple_sums.h">
       <Filter>algorithm</Filter>
     </ClInclude>
+    <ClInclude Include="algorithm\665_non_decreasing_array.h">
+      <Filter>algorithm</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
