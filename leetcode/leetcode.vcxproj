@@ -152,6 +152,7 @@
     <ClInclude Include="algorithm\1332_remove_palindromic_subsequences.h" />
     <ClInclude Include="algorithm\1342_number_of_steps_to_reduce_a_number_to_zero.h" />
     <ClInclude Include="algorithm\1354_construct_target_array_with_multiple_sums.h" />
+    <ClInclude Include="algorithm\1423_maximum_points_you_can_obtain_from_cards.h" />
     <ClInclude Include="algorithm\1461_check_if_a_string_contains_all_binary_codes_of_size_k.h" />
     <ClInclude Include="algorithm\1480_running_sum_of_1d_array.h" />
     <ClInclude Include="algorithm\160_intersection_of_two_linked_lists.h" />
