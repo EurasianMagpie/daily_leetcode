@@ -159,6 +159,7 @@
     <ClInclude Include="algorithm\1642_furthest_building_you_can_reach.h" />
     <ClInclude Include="algorithm\1658_minimum_operations_to_reduce_x_to_zero.h" />
     <ClInclude Include="algorithm\167_two_sum_ii_input_array_is_sorted.h" />
+    <ClInclude Include="algorithm\1689_partitionning_into_minimum_number_of_deci_binary_numbers.h" />
     <ClInclude Include="algorithm\1695_maximum_erasure_value.h" />
     <ClInclude Include="algorithm\17_letter_combinations_of_a_phone_number.h" />
     <ClInclude Include="algorithm\215_kth_largest_element_in_an_array.h" />
