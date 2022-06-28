@@ -157,6 +157,7 @@
     <ClInclude Include="algorithm\1480_running_sum_of_1d_array.h" />
     <ClInclude Include="algorithm\160_intersection_of_two_linked_lists.h" />
     <ClInclude Include="algorithm\1642_furthest_building_you_can_reach.h" />
+    <ClInclude Include="algorithm\1647_minimum_deletions_to_make_character_frequencies_unique.h" />
     <ClInclude Include="algorithm\1658_minimum_operations_to_reduce_x_to_zero.h" />
     <ClInclude Include="algorithm\167_two_sum_ii_input_array_is_sorted.h" />
     <ClInclude Include="algorithm\1689_partitionning_into_minimum_number_of_deci_binary_numbers.h" />
