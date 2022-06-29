@@ -19,6 +19,7 @@
 #include "268_missing_number.h"
 #include "304_range_sum_query_2d_immutable.h"
 #include "318_maximum_product_of_word_lengths.h"
+#include "406_queue_reconstruction_by_height.h"
 #include "583_delete_operation_for_two_strings.h"
 #include "630_course_schedule_iii.h"
 #include "665_non_decreasing_array.h"

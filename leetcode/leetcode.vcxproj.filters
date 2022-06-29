@@ -164,5 +164,8 @@
     <ClInclude Include="algorithm\1647_minimum_deletions_to_make_character_frequencies_unique.h">
       <Filter>algorithm</Filter>
     </ClInclude>
+    <ClInclude Include="algorithm\406_queue_reconstruction_by_height.h">
+      <Filter>algorithm</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
