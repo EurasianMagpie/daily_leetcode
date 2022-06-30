@@ -173,6 +173,7 @@
     <ClInclude Include="algorithm\37_sudoku_solver.h" />
     <ClInclude Include="algorithm\3_longest_substring_without_repeating_characters.h" />
     <ClInclude Include="algorithm\406_queue_reconstruction_by_height.h" />
+    <ClInclude Include="algorithm\462_minimum_moves_to_equal_array_elements_ii.h" />
     <ClInclude Include="algorithm\51_n_queens.h" />
     <ClInclude Include="algorithm\52_n_queens_ii.h" />
     <ClInclude Include="algorithm\583_delete_operation_for_two_strings.h" />
