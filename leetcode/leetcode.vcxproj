@@ -181,6 +181,7 @@
     <ClInclude Include="algorithm\630_course_schedule_iii.h" />
     <ClInclude Include="algorithm\665_non_decreasing_array.h" />
     <ClInclude Include="algorithm\67_add_binary.h" />
+    <ClInclude Include="algorithm\729_my_calendar_i.h" />
     <ClInclude Include="algorithm\745_prefix_and_suffix_search.h" />
     <ClInclude Include="algorithm\820_short_encoding_of_word.h" />
     <ClInclude Include="algorithm\867_transpose_matrix.h" />

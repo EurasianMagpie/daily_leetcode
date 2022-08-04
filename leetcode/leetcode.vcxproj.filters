@@ -170,5 +170,8 @@
     <ClInclude Include="algorithm\462_minimum_moves_to_equal_array_elements_ii.h">
       <Filter>algorithm</Filter>
     </ClInclude>
+    <ClInclude Include="algorithm\729_my_calendar_i.h">
+      <Filter>algorithm</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

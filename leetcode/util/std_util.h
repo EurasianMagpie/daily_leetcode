@@ -25,6 +25,12 @@ public:
         }
     };
 
+    struct BoolTypeConverter {
+        bool operator() (std::string&s) {
+            return s.compare("true") == 0;
+        }
+    };
+
 public:
     /*
       根据输入构造一个 std::vector
@@ -52,6 +58,10 @@ public:
 
     static std::vector<std::string> generateStringVector(const char* input) {
         return generateVector<std::string, StringTypeConverter>(input);
+    }
+
+    static std::vector<bool> generateBoolVector(const char* input) {
+        return generateVector<bool, BoolTypeConverter>(input);
     }
 
 
