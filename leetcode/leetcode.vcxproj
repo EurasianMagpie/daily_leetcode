@@ -170,6 +170,7 @@
     <ClInclude Include="algorithm\29_devide_two_integers.h" />
     <ClInclude Include="algorithm\304_range_sum_query_2d_immutable.h" />
     <ClInclude Include="algorithm\318_maximum_product_of_word_lengths.h" />
+    <ClInclude Include="algorithm\377_combination_sum_iv.h" />
     <ClInclude Include="algorithm\37_sudoku_solver.h" />
     <ClInclude Include="algorithm\3_longest_substring_without_repeating_characters.h" />
     <ClInclude Include="algorithm\406_queue_reconstruction_by_height.h" />
@@ -184,6 +185,7 @@
     <ClInclude Include="algorithm\729_my_calendar_i.h" />
     <ClInclude Include="algorithm\745_prefix_and_suffix_search.h" />
     <ClInclude Include="algorithm\820_short_encoding_of_word.h" />
+    <ClInclude Include="algorithm\858_mirror_reflection.h" />
     <ClInclude Include="algorithm\867_transpose_matrix.h" />
     <ClInclude Include="algorithm\88_merge_sorted_array.h" />
     <ClInclude Include="algorithm\968_binary_tree_cameras.h" />

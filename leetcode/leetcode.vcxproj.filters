@@ -173,5 +173,11 @@
     <ClInclude Include="algorithm\729_my_calendar_i.h">
       <Filter>algorithm</Filter>
     </ClInclude>
+    <ClInclude Include="algorithm\858_mirror_reflection.h">
+      <Filter>algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithm\377_combination_sum_iv.h">
+      <Filter>algorithm</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
