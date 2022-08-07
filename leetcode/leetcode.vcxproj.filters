@@ -179,5 +179,8 @@
     <ClInclude Include="algorithm\377_combination_sum_iv.h">
       <Filter>algorithm</Filter>
     </ClInclude>
+    <ClInclude Include="algorithm\1220_count_vowels_permutation.h">
+      <Filter>algorithm</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

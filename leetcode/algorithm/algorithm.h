@@ -31,6 +31,7 @@
 #include "867_transpose_matrix.h"
 #include "968_binary_tree_cameras.h"
 #include "1048_longest_string_chain.h"
+#include "1220_count_vowels_permutation.h"
 #include "1268_search_suggestions_system.h"
 #include "1332_remove_palindromic_subsequences.h"
 #include "1342_number_of_steps_to_reduce_a_number_to_zero.h"

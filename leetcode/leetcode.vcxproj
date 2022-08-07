@@ -148,6 +148,7 @@
     <ClInclude Include="algorithm\1048_longest_string_chain.h" />
     <ClInclude Include="algorithm\110_balanced_binary_tree.h" />
     <ClInclude Include="algorithm\120_triangle.h" />
+    <ClInclude Include="algorithm\1220_count_vowels_permutation.h" />
     <ClInclude Include="algorithm\1268_search_suggestions_system.h" />
     <ClInclude Include="algorithm\1332_remove_palindromic_subsequences.h" />
     <ClInclude Include="algorithm\1342_number_of_steps_to_reduce_a_number_to_zero.h" />
