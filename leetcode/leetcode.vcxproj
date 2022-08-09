@@ -169,6 +169,7 @@
     <ClInclude Include="algorithm\24_swap_nodes_in_pairs.h" />
     <ClInclude Include="algorithm\268_missing_number.h" />
     <ClInclude Include="algorithm\29_devide_two_integers.h" />
+    <ClInclude Include="algorithm\300_longest_increasing_subsequence.h" />
     <ClInclude Include="algorithm\304_range_sum_query_2d_immutable.h" />
     <ClInclude Include="algorithm\318_maximum_product_of_word_lengths.h" />
     <ClInclude Include="algorithm\377_combination_sum_iv.h" />
@@ -186,6 +187,7 @@
     <ClInclude Include="algorithm\729_my_calendar_i.h" />
     <ClInclude Include="algorithm\745_prefix_and_suffix_search.h" />
     <ClInclude Include="algorithm\820_short_encoding_of_word.h" />
+    <ClInclude Include="algorithm\823_binary_trees_with_factors.h" />
     <ClInclude Include="algorithm\858_mirror_reflection.h" />
     <ClInclude Include="algorithm\867_transpose_matrix.h" />
     <ClInclude Include="algorithm\88_merge_sorted_array.h" />

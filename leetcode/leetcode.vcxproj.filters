@@ -182,5 +182,11 @@
     <ClInclude Include="algorithm\1220_count_vowels_permutation.h">
       <Filter>algorithm</Filter>
     </ClInclude>
+    <ClInclude Include="algorithm\300_longest_increasing_subsequence.h">
+      <Filter>algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithm\823_binary_trees_with_factors.h">
+      <Filter>algorithm</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
