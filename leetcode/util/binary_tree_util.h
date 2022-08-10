@@ -83,6 +83,55 @@ public:
         }
     }
 
+    /*
+    * 比较两个二叉树相同
+    */
+    static bool compareEqualBinaryTree(TreeNode* lhs, TreeNode* rhs) {
+        std::list<TreeNode*> lhsNodes;
+        std::list<TreeNode*> rhsNodes;
+        lhsNodes.push_back(lhs);
+        rhsNodes.push_back(rhs);
+        do {
+            if (!lhsNodes.empty() && !rhsNodes.empty()) {
+                TreeNode* leftNode = lhsNodes.front();
+                lhsNodes.pop_front();
+                TreeNode* rightNode = rhsNodes.front();
+                rhsNodes.pop_front();
+                if (leftNode->val != rightNode->val) {
+                    return false;
+                }
+
+                if (leftNode->left && rightNode->left) {
+                    lhsNodes.push_back(leftNode->left);
+                    rhsNodes.push_back(rightNode->left);
+                }
+                else if (!leftNode->left && !rightNode->left) {
+                    // continue
+                }
+                else {
+                    return false;
+                }
+
+                if (leftNode->right && rightNode->right) {
+                    lhsNodes.push_back(leftNode->right);
+                    rhsNodes.push_back(rightNode->right);
+                }
+                else if (!leftNode->right && !rightNode->right) {
+                    // continue
+                }
+                else {
+                    return false;
+                }
+            }
+            else if (lhsNodes.empty() && rhsNodes.empty()) {
+                return true;
+            }
+            else {
+                return false;
+            }
+        } while (true);
+    }
+
 private:
     /*
       根据字符串输入，解析节点值数组

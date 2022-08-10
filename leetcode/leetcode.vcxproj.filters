@@ -188,5 +188,8 @@
     <ClInclude Include="algorithm\823_binary_trees_with_factors.h">
       <Filter>algorithm</Filter>
     </ClInclude>
+    <ClInclude Include="algorithm\108_convert_sorted_array_to_binary_search_tree.h">
+      <Filter>algorithm</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
