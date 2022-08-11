@@ -11,6 +11,7 @@
 #include "52_n_queens_ii.h"
 #include "67_add_binary.h"
 #include "88_merge_sorted_array.h"
+#include "98_validate_binary_search_tree.h"
 #include "108_convert_sorted_array_to_binary_search_tree.h"
 #include "110_balanced_binary_tree.h"
 #include "120_triangle.h"

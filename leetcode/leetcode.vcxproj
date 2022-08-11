@@ -193,6 +193,7 @@
     <ClInclude Include="algorithm\867_transpose_matrix.h" />
     <ClInclude Include="algorithm\88_merge_sorted_array.h" />
     <ClInclude Include="algorithm\968_binary_tree_cameras.h" />
+    <ClInclude Include="algorithm\98_validate_binary_search_tree.h" />
     <ClInclude Include="algorithm\algorithm.h" />
     <ClInclude Include="base\base.h" />
     <ClInclude Include="util\binary_tree_util.h" />
