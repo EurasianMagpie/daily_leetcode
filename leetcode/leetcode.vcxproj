@@ -166,6 +166,7 @@
     <ClInclude Include="algorithm\1695_maximum_erasure_value.h" />
     <ClInclude Include="algorithm\17_letter_combinations_of_a_phone_number.h" />
     <ClInclude Include="algorithm\215_kth_largest_element_in_an_array.h" />
+    <ClInclude Include="algorithm\235_lowest_common_ancestor_of_a_binary_search_tree.h" />
     <ClInclude Include="algorithm\23_merge_k_sorted_lists.h" />
     <ClInclude Include="algorithm\24_swap_nodes_in_pairs.h" />
     <ClInclude Include="algorithm\268_missing_number.h" />

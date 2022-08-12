@@ -194,5 +194,8 @@
     <ClInclude Include="algorithm\98_validate_binary_search_tree.h">
       <Filter>algorithm</Filter>
     </ClInclude>
+    <ClInclude Include="algorithm\235_lowest_common_ancestor_of_a_binary_search_tree.h">
+      <Filter>algorithm</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
