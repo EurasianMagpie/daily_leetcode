@@ -32,6 +32,7 @@
 #include "665_non_decreasing_array.h"
 #include "729_my_calendar_i.h"
 #include "745_prefix_and_suffix_search.h"
+#include "804_unique_morse_code_words.h"
 #include "820_short_encoding_of_word.h"
 #include "823_binary_trees_with_factors.h"
 #include "867_transpose_matrix.h"
