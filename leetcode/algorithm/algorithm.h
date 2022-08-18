@@ -41,6 +41,7 @@
 #include "1220_count_vowels_permutation.h"
 #include "1268_search_suggestions_system.h"
 #include "1332_remove_palindromic_subsequences.h"
+#include "1338_reduce_array_size_to_the_half.h"
 #include "1342_number_of_steps_to_reduce_a_number_to_zero.h"
 #include "1354_construct_target_array_with_multiple_sums.h"
 #include "1423_maximum_points_you_can_obtain_from_cards.h"
