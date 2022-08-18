@@ -64,15 +64,15 @@ TEST(_28_ImplementStrStr, SimpleCases) {
     * Input: haystack = "hello", needle = "ll"
     * Output: 2
     */
-    //EXPECT_EQ(ImplementStrStr::Solution().strStr("hello", "ll"), 2);
+    EXPECT_EQ(ImplementStrStr::Solution().strStr("hello", "ll"), 2);
 
     /*
     * Example 2:
     * Input: haystack = "aaaaa", needle = "bba"
     * Output: -1
     */
-    //EXPECT_EQ(ImplementStrStr::Solution().strStr("aaaaa", "bba"), -1);
+    EXPECT_EQ(ImplementStrStr::Solution().strStr("aaaaa", "bba"), -1);
 
-    //EXPECT_EQ(ImplementStrStr::Solution().strStr("a", "a"), 0);
-    EXPECT_EQ(ImplementStrStr::Solution().strStr("cccaa", "aa"), 0);
+    EXPECT_EQ(ImplementStrStr::Solution().strStr("a", "a"), 0);
+    EXPECT_EQ(ImplementStrStr::Solution().strStr("cccaa", "aa"), 3);
 }
