@@ -2,6 +2,7 @@
 
 #include "3_longest_substring_without_repeating_characters.h"
 #include "5_longest_palindromic_substring.h"
+#include "12_integer_to_roman.h"
 #include "13_roman_to_integer.h"
 #include "17_letter_combinations_of_a_phone_number.h"
 #include "23_merge_k_sorted_lists.h"
