@@ -40,6 +40,7 @@
 #include "820_short_encoding_of_word.h"
 #include "823_binary_trees_with_factors.h"
 #include "867_transpose_matrix.h"
+#include "869_reordered_power_of_2.h"
 #include "871_minimum_number_of_refueling_stops.h"
 #include "968_binary_tree_cameras.h"
 #include "1048_longest_string_chain.h"
