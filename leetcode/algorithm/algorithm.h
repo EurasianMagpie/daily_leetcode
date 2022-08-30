@@ -10,6 +10,7 @@
 #include "28_implement_strstr.h"
 #include "29_devide_two_integers.h"
 //#include "37_sudoku_solver.h"
+#include "48_rotate_image.h"
 #include "51_n_queens.h"
 #include "52_n_queens_ii.h"
 #include "67_add_binary.h"
