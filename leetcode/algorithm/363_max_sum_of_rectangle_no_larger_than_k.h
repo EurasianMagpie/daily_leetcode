@@ -74,7 +74,7 @@ namespace MaxSumOfRectangleNoLargerThanK {
                                 sum += matrix.at(r - 1).at(c - 1);
                             }
 
-                            std::cout << "[" << r << "," << c << "] -- [" << i << "," << j << "] -- sum:" << sum << std::endl;
+                            //std::cout << "[" << r << "," << c << "] -- [" << i << "," << j << "] -- sum:" << sum << std::endl;
 
                             if (k == sum) {
                                 return k;
