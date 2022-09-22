@@ -5,6 +5,5 @@ project (dailyLeetCode)
 aux_source_directory(./leetcode DIR_SRCS)
 
 add_executable(dailyLeetCode ${DIR_SRCS})
-find_package(gtest REQUIRED)
-include_directories(${gtest_INCLUDE_DIRS})
-target_link_libraries(dailyLeetCode ${gtest_LIBS})
+find_package(GTest CONFIG REQUIRED)
+target_link_libraries(dailyLeetCode PRIVATE GTest::gmock GTest::gtest GTest::gmock_main GTest::gtest_main)
