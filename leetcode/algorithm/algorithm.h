@@ -35,6 +35,7 @@
 #include "417_pacific_atlantic_water_flow.h"
 #include "462_minimum_moves_to_equal_array_elements_ii.h"
 #include "583_delete_operation_for_two_strings.h"
+#include "622_design_circular_queue.h"
 #include "630_course_schedule_iii.h"
 #include "659_split_array_into_consecutive_subsequences.h"
 #include "665_non_decreasing_array.h"
