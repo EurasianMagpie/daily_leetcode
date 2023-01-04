@@ -4,6 +4,9 @@
 #include <iostream>
 #include <gtest/gtest.h>
 #include "algorithm/algorithm.h"
+#include "concurrency/concurrency.h"
+#include "classic/classic.h"
+#include "interview/interview.h"
 
 int main()
 {
