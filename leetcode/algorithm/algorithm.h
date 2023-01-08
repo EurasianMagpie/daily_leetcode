@@ -19,6 +19,7 @@
 #include "108_convert_sorted_array_to_binary_search_tree.h"
 #include "110_balanced_binary_tree.h"
 #include "120_triangle.h"
+#include "149_max_points_on_a_line.h"
 #include "160_intersection_of_two_linked_lists.h"
 #include "167_two_sum_ii_input_array_is_sorted.h"
 #include "200_number_of_islands.h"
