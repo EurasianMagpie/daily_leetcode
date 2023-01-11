@@ -59,6 +59,7 @@
 #include "1342_number_of_steps_to_reduce_a_number_to_zero.h"
 #include "1354_construct_target_array_with_multiple_sums.h"
 #include "1423_maximum_points_you_can_obtain_from_cards.h"
+#include "1443_minimum_time_to_collect_all_apples_in_a_tree.h"
 #include "1461_check_if_a_string_contains_all_binary_codes_of_size_k.h"
 #include "1480_running_sum_of_1d_array.h"
 #include "1642_furthest_building_you_can_reach.h"

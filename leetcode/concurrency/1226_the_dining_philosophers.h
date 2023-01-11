@@ -121,24 +121,24 @@ namespace TheDiningPhilosophers {
         }
 
         static void pickLeft(int id) {
-            std::cout << "id:" << id << "pickLeft" << std::endl;
+            //std::cout << "id:" << id << "pickLeft" << std::endl;
         }
 
         static void pickRight(int id) {
-            std::cout << "id:" << id << "pickRight" << std::endl;
+            //std::cout << "id:" << id << "pickRight" << std::endl;
         }
 
         static void eat(int id) {
-            std::cout << "id:" << id << "eat" << std::endl;
+            //std::cout << "id:" << id << "eat" << std::endl;
             sEatRecord[id]++;
         }
 
         static void putLeft(int id) {
-            std::cout << "id:" << id << "putLeft" << std::endl;
+            //std::cout << "id:" << id << "putLeft" << std::endl;
         }
 
         static void putRight(int id) {
-            std::cout << "id:" << id << "putRight" << std::endl;
+            //std::cout << "id:" << id << "putRight" << std::endl;
         }
 
     public:

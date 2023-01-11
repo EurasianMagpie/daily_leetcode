@@ -21,12 +21,13 @@ public:
     void hydrogen(std::function<void()> releaseHydrogen) {
         std::call_once(sH1Flag, [&] { tIsH1 = true; });
 
+        /*
         if (tIsH1) {
             std::cout << "hydrogen:h1 - wait" << std::endl;
         }
         else {
             std::cout << "hydrogen:h2 - wait" << std::endl;
-        }
+        }//*/
 
         std::unique_lock<std::mutex> lock(mMutex);
         mCond.wait(lock, [&]() -> bool {
@@ -37,11 +38,11 @@ public:
         releaseHydrogen();
 
         if (tIsH1) {
-            std::cout << "hydrogen:h1++" << std::endl;
+            //std::cout << "hydrogen:h1++" << std::endl;
             h1++;
         }
         else {
-            std::cout << "hydrogen:h2++" << std::endl;
+            //std::cout << "hydrogen:h2++" << std::endl;
             h2++;
         }
         fireNext();
@@ -49,12 +50,12 @@ public:
     }
 
     void oxygen(std::function<void()> releaseOxygen) {
-        std::cout << "hydrogen:o - wait" << std::endl;
+        //std::cout << "hydrogen:o - wait" << std::endl;
         std::unique_lock<std::mutex> lock(mMutex);
         mCond.wait(lock, [&] { return o.load() == 0; });
         // releaseOxygen() outputs "O". Do not change or remove this line.
         releaseOxygen();
-        std::cout << "hydrogen:o++" << std::endl;
+        //std::cout << "hydrogen:o++" << std::endl;
         o++;
         fireNext();
         mCond.notify_all();
@@ -63,7 +64,7 @@ public:
 private:
     bool fireNext() {
         if (h1.load() == 1 && h2.load() == 1 && o.load() == 1) {
-            std::cout << "fireNext reset" << std::endl;
+            //std::cout << "fireNext reset" << std::endl;
             h1.store(0);
             h2.store(0);
             o.store(0);
