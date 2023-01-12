@@ -62,6 +62,7 @@
 #include "1443_minimum_time_to_collect_all_apples_in_a_tree.h"
 #include "1461_check_if_a_string_contains_all_binary_codes_of_size_k.h"
 #include "1480_running_sum_of_1d_array.h"
+#include "1519_number_of_nodes_in_subtree_with_the_same_label.h"
 #include "1642_furthest_building_you_can_reach.h"
 #include "1647_minimum_deletions_to_make_character_frequencies_unique.h"
 #include "1658_minimum_operations_to_reduce_x_to_zero.h"
