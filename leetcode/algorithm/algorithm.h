@@ -68,3 +68,4 @@
 #include "1658_minimum_operations_to_reduce_x_to_zero.h"
 #include "1689_partitionning_into_minimum_number_of_deci_binary_numbers.h"
 #include "1695_maximum_erasure_value.h"
+#include "2246_longest_path_with_different_adjacent_characters.h"
