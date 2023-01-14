@@ -51,6 +51,7 @@
 #include "938_range_sum_of_bst.h"
 #include "968_binary_tree_cameras.h"
 #include "1048_longest_string_chain.h"
+#include "1061_lexicographically_smallest_equivalent_string.h"
 #include "1220_count_vowels_permutation.h"
 #include "1268_search_suggestions_system.h"
 #include "1329_sort_the_matrix_diagonally.h"
